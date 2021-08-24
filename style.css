@@ -1,8 +1,8 @@
 :root{
     --white:#fff;
     --black:#222;
-    --primary:#f3327c;
-    --grey:#888;
+    --primary:#7652da;
+    --grey:rgb(78, 61, 61);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
@@ -78,12 +78,7 @@ img{
     justify-content: space-between;
 }
 .logo{
-    /* outline: 2px solid;
-    outline-offset: 0.2rem;
-    padding: 0  1.5rem; */
-
     padding: 11px;
-    /* border: 3px; */
     border-radius: 48%;
     color: var(--white);
     background-color: var(--primary);
@@ -209,7 +204,7 @@ img{
 .hero-content .right img{
     position: absolute;
     bottom: 0;
-    right: -12%;
+    right: -23%;
     padding: 0%;
     /* left: -5%; */
     height: 100%;
@@ -505,7 +500,7 @@ title h1{
 
     /* Footer */
 .footer {
-    background-color: var(--black);
+    background-color: var(--grey);
     padding: 6rem 1rem;
     line-height: 3rem;
     margin-top: 5rem;
